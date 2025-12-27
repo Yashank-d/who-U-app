@@ -1,5 +1,5 @@
-import { DomainVersion } from "../shared/versions";
-import { NumerologyNumbers } from "../numerology/contract";
+import type { DomainVersion } from "../shared/versions.ts";
+import { NumerologyNumbers } from "../numerology/contract.ts";
 
 export type InterpretationContext = {
   version: DomainVersion;

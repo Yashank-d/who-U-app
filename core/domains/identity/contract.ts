@@ -1,4 +1,4 @@
-import { DomainVersion } from "../shared/versions";
+import type { DomainVersion } from "../shared/versions.ts";
 
 export type Gender = "male" | "female" | "neautral";
 

@@ -1,7 +1,7 @@
-import { DomainVersion } from "../shared/versions";
+import type { DomainVersion } from "../shared/versions.ts";
 
 export type NumerologyNumbers = {
-  lifepath: number;
+  lifePath: number;
   destiny: number;
   soulUrge: number;
   personality: number;
@@ -14,6 +14,6 @@ export type NumerologyNumbers = {
 };
 
 export type NumerologyResult = {
-  versions: DomainVersion;
+  version: DomainVersion;
   numbers: NumerologyNumbers;
 };
