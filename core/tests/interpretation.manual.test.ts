@@ -10,4 +10,3 @@ const prompt = buildInterpretationPrompt(context);
 console.log(prompt.system);
 console.log("-----");
 console.log(prompt.user);
-cd ..
