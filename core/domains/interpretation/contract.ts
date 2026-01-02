@@ -4,7 +4,7 @@ import { NumerologyNumbers } from "../numerology/contract.ts";
 export type InterpretationContext = {
   version: DomainVersion;
   numerology: NumerologyNumbers;
-  pernalYearFocus: "current" | "next";
+  personalYearFocus: "current" | "next";
 };
 
 export type InterpretationSection =
@@ -16,7 +16,7 @@ export type InterpretationSection =
   | "decisionTiming"
   | "practicalAdvice";
 
-export type InterpretationIOutput = {
+export type InterpretationOutput = {
   version: DomainVersion;
   section: Record<InterpretationSection, string>;
 };
