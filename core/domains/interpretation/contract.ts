@@ -18,5 +18,5 @@ export type InterpretationSection =
 
 export type InterpretationOutput = {
   version: DomainVersion;
-  section: Record<InterpretationSection, string>;
+  sections: Record<InterpretationSection, string>;
 };
